@@ -1,7 +1,7 @@
 # Network Security Analysis Report
 
 ## Executive Summary
-This document provides a detailed analysis of the network scan performed on the local network range 192.168.1.0/24. The scan identified 4 active devices with various open ports and services that require security attention.
+This document provides a detailed analysis of the network scan performed on the local network range 192.168.1.0/24. The scan identified 4 active devices with various open ports and services that pose potential security risks.
 
 ## Methodology
 - **Scanning Tool**: Nmap (Network Mapper)
@@ -18,6 +18,7 @@ Internet → Router (192.168.1.1) → Local Network (192.168.1.0/24)
             [192.168.1.10] [192.168.1.15] [192.168.1.25]
                Server        IoT Device      My Computer
 ```
+(Note: IPs anonymized for privacy; real devices mapped during scan)
 
 ## Device Analysis
 
@@ -35,7 +36,8 @@ Internet → Router (192.168.1.1) → Local Network (192.168.1.0/24)
   - *Recommendation*: Use HTTPS only, change default credentials
   
 - **Port 443 (HTTPS)**: Secure web interface
-  - *Risk*: Low - Encrypted management interface
+  - *Risk*: Low – Assuming strong TLS configuration and no default credentials
+  - *Recommendation*: Regularly update router firmware to patch vulnerabilities
 
 **Filtered Ports (Behind Firewall):**
 - **Port 21 (FTP)**: File Transfer Protocol
@@ -51,7 +53,7 @@ Internet → Router (192.168.1.1) → Local Network (192.168.1.0/24)
 **Security Status:** Excellent - Device appears well-secured
 
 ### 3. Unknown Device (192.168.1.4)
-**Device Type**: Unknown Device  
+**Device Type**: Possibly a VoIP device (e.g., SIP phone or intercom system); requires further identification.
 **Status**: Active  
 **Risk Level**: Low
 
