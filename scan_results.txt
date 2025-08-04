@@ -1,0 +1,50 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 21:00 +0530
+Stats: 0:01:42 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 82.25% done; ETC: 21:02 (0:00:09 remaining)
+Packet Tracing disabled.
+Stats: 0:01:42 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 83.10% done; ETC: 21:02 (0:00:09 remaining)
+Packet Tracing disabled.
+Stats: 0:01:43 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 85.44% done; ETC: 21:02 (0:00:07 remaining)
+Nmap scan report for 192.168.1.1
+Host is up (0.032s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 6C:EB:B6:91:15:3B (Huawei Technologies)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.042s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 30:07:4D:52:08:21 (Samsung Electro-mechanics(Thailand))
+
+Nmap scan report for 192.168.1.4
+Host is up (0.050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 4A:DD:6A:BA:80:CE (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.032s latency).
+All 1000 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D2:74:A3:03:7C:97 (Unknown)
+
+Nmap scan report for 192.168.1.54
+Host is up (0.0017s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 111.61 seconds
