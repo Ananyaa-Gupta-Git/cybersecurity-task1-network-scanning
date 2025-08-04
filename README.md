@@ -81,7 +81,6 @@ nmap -sS -sV 192.168.1.0/24
 - `README.md`: This documentation
 - `scan_results.txt`: Raw Nmap output
 - `network_analysis.md`: Detailed analysis
-- `screenshots/`: Screenshots of scan process
 
 ## Key Concepts Learned
 - **Port Scanning**: Technique to discover open ports and services
