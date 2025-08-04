@@ -1,12 +1,11 @@
+# Network Scan Results
+# Date: August 4, 2025, 21:00 +0530
+# Command: nmap -sS 192.168.1.0/24
+# Network Range: 192.168.1.0/24
+# Scan Duration: 111.61 seconds
+
 Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 21:00 +0530
-Stats: 0:01:42 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
-SYN Stealth Scan Timing: About 82.25% done; ETC: 21:02 (0:00:09 remaining)
-Packet Tracing disabled.
-Stats: 0:01:42 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
-SYN Stealth Scan Timing: About 83.10% done; ETC: 21:02 (0:00:09 remaining)
-Packet Tracing disabled.
-Stats: 0:01:43 elapsed; 251 hosts completed (4 up), 4 undergoing SYN Stealth Scan
-SYN Stealth Scan Timing: About 85.44% done; ETC: 21:02 (0:00:07 remaining)
+
 Nmap scan report for 192.168.1.1
 Host is up (0.032s latency).
 Not shown: 994 closed tcp ports (reset)
