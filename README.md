@@ -1,4 +1,3 @@
-# cybersecurity-task1-network-scanning
 # Cybersecurity Task 1: Network Port Scanning
 
 ## Objective
@@ -139,5 +138,5 @@ This task provided hands-on experience with network reconnaissance using Nmap. U
 
 ---
 **Author**: Ananyaa Gupta  
-**Date**: 04/08/2025
+**Date**: 04/08/2025  
 **Course**: Cybersecurity Internship - Task 1
